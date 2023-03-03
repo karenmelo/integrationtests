@@ -4,6 +4,406 @@
     "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {}
   },
   "projects": {
+    "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj",
+        "projectName": "Store.Core",
+        "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj",
+        "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
+        "outputPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Data\\Store.Sales.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Data\\Store.Sales.Data.csproj",
+        "projectName": "Store.Sales.Data",
+        "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Data\\Store.Sales.Data.csproj",
+        "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
+        "outputPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Domain\\Store.Sales.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Domain\\Store.Sales.Domain.csproj",
+        "projectName": "Store.Sales.Domain",
+        "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Domain\\Store.Sales.Domain.csproj",
+        "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
+        "outputPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Application\\NerdStore.Catalog.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Application\\NerdStore.Catalog.Application.csproj",
+        "projectName": "NerdStore.Catalog.Application",
+        "projectPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Application\\NerdStore.Catalog.Application.csproj",
+        "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
+        "outputPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Data\\NerdStore.Catalog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Data\\NerdStore.Catalog.Data.csproj",
+        "projectName": "NerdStore.Catalog.Data",
+        "projectPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Data\\NerdStore.Catalog.Data.csproj",
+        "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
+        "outputPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Domain\\NerdStore.Catalog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Domain\\NerdStore.Catalog.Domain.csproj",
+        "projectName": "NerdStore.Catalog.Domain",
+        "projectPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Domain\\NerdStore.Catalog.Domain.csproj",
+        "packagesPath": "C:\\Users\\Karen\\.nuget\\packages\\",
+        "outputPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Karen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +432,26 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core\\Store.Core.csproj"
+              },
+              "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Data\\Store.Sales.Data.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Data\\Store.Sales.Data.csproj"
+              },
+              "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Domain\\Store.Sales.Domain.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Domain\\Store.Sales.Domain.csproj"
+              },
+              "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Application\\NerdStore.Catalog.Application.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Application\\NerdStore.Catalog.Application.csproj"
+              },
+              "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Data\\NerdStore.Catalog.Data.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Data\\NerdStore.Catalog.Data.csproj"
+              },
+              "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Domain\\NerdStore.Catalog.Domain.csproj": {
+                "projectPath": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Domain\\NerdStore.Catalog.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
