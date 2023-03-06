@@ -15,4 +15,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\EstudoSobreTestesDeSoftware\IntegrationTests\src\Store.Core\Store.Core.csproj" />
+    <ProjectReference Include="..\..\..\..\EstudoSobreTestesDeSoftware\IntegrationTests\src\Store.Sales.Data\Store.Sales.Data.csproj" />
+    <ProjectReference Include="..\..\..\..\EstudoSobreTestesDeSoftware\IntegrationTests\src\Store.Sales.Domain\Store.Sales.Domain.csproj" />
+    <ProjectReference Include="..\NerdStore.Catalog.Application\NerdStore.Catalog.Application.csproj" />
+    <ProjectReference Include="..\NerdStore.Catalog.Data\NerdStore.Catalog.Data.csproj" />
+    <ProjectReference Include="..\NerdStore.Catalog.Domain\NerdStore.Catalog.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
