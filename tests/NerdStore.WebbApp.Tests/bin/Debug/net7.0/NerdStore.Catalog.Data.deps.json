@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "NerdStore.Catalog.Data/1.0.0": {
+        "runtime": {
+          "NerdStore.Catalog.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NerdStore.Catalog.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

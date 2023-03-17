@@ -1,0 +1,9 @@
+{
+  "NerdStore.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Application",
+  "NerdStore.Catalog.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Data",
+  "NerdStore.Catalog.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.Catalog.Domain",
+  "NerdStore.WebApp.MVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\devio\\TestesDeSoftware\\TesteDeIntegracao\\IntegrationTests\\src\\NerdStore.WebApp.MVC",
+  "Store.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Core",
+  "Store.Sales.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Data",
+  "Store.Sales.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "E:\\devio\\TestesDeSoftware\\EstudoSobreTestesDeSoftware\\IntegrationTests\\src\\Store.Sales.Domain"
+}

@@ -1,0 +1,12 @@
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\bin\Debug\net7.0\NerdStore.Catalog.Data.deps.json
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\bin\Debug\net7.0\NerdStore.Catalog.Data.dll
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\bin\Debug\net7.0\NerdStore.Catalog.Data.pdb
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\NerdStore.Catalog.Data.csproj.AssemblyReference.cache
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\NerdStore.Catalog.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\NerdStore.Catalog.Data.AssemblyInfoInputs.cache
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\NerdStore.Catalog.Data.AssemblyInfo.cs
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\NerdStore.Catalog.Data.csproj.CoreCompileInputs.cache
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\NerdStore.Catalog.Data.dll
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\refint\NerdStore.Catalog.Data.dll
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\NerdStore.Catalog.Data.pdb
+E:\devio\TestesDeSoftware\TesteDeIntegracao\IntegrationTests\src\NerdStore.Catalog.Data\obj\Debug\net7.0\ref\NerdStore.Catalog.Data.dll
