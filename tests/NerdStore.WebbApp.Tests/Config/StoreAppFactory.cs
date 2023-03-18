@@ -40,9 +40,7 @@ namespace NerdStore.WebbApp.Tests.Config
 
             });
 
-            //builder.UseStartup<TProgram>();
             builder.UseEnvironment("Development");
-            //base.ConfigureWebHost(builder);
         }
     }
 }
